@@ -10,7 +10,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\p1.jpg" />
+    <None Remove="Images\Screenshot 2025-02-11 115748.png" />
+    <None Remove="Images\Screenshot 2025-02-26 200621.png" />
+    <None Remove="Images\Screenshot 2025-02-28 175011.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\p1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Screenshot 2025-02-11 115748.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Screenshot 2025-02-26 200621.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Screenshot 2025-02-28 175011.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
