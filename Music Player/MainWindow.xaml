@@ -88,7 +88,29 @@
                 </StackPanel>
             </Border>
 
+            <StackPanel Grid.Column="1" Background="White" Margin="40 60 10 0">
+                <TextBlock Text="Home" Style="{StaticResource titleText}"/>
 
+                <Border CornerRadius="20" Margin="0 20 0 0">
+                    <Border.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#30ad9a" Offset="0"/>
+                            <GradientStop Color="#18c274" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="20" ShadowDepth="0" Opacity="0.4" Color="#1fae7e"/>
+                    </Border.Effect>
+
+                    <Grid>
+                        <Border Opacity="0.07" CornerRadius="20">
+                            <Border.Background>
+                                <ImageBrush/>
+                            </Border.Background>
+                        </Border>
+                    </Grid>
+                </Border>
+            </StackPanel>
 
         </Grid>
 

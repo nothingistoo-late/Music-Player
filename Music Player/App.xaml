@@ -48,6 +48,13 @@
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="Visibility" Value="{Binding Path=Tag, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"/>
         </Style>
+
+        <Style x:Key="titleText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#393939"/>
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
         
     </Application.Resources>
 </Application>
